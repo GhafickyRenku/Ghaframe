@@ -1,0 +1,31 @@
+nav {
+    background-color: #234143;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bold {
+    font-style: bold;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+    /* Center the content */
+    
+    display: flex;
+    flex-direction: column;
+
+    /* Take full size */
+    height: 95vh;
+    width: 100%;
+
+    /* Background */
+    background: url("assets/img/bg.jpg") center center / cover no-repeat;
+}
+
+.landing-text {
+    margin-top: 200px;
+    font-family: "Montserrat", sans-serif;
+}
